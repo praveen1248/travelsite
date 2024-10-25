@@ -1,0 +1,16 @@
+body{
+  background-color: #f5f6f6 !important;
+  font-family: Gotham, sans-serif !important;
+}
+.iqZQBq {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  flex-direction: column;
+  position: relative;
+  z-index: 100;
+  margin: auto;
+  max-width: 1440px;
+  min-width: 1440px;
+}
+

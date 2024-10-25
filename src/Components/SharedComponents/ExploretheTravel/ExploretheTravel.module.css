@@ -1,0 +1,35 @@
+.exploreContainer{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    margin: auto;
+    max-width: 1500px;
+    padding: 80px 30px;
+    text-align: center;
+}
+.heading{
+    position: relative;
+    display: block;
+    font-size: 50px;
+    line-height: 60px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    color: #061a3a;
+    margin: 0px;
+    transition: all 500ms ease;
+    margin-bottom: 50px;
+}
+.mapInner {
+    position: relative;
+    max-width: 1274px;
+    width: 100%;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.mapContent {
+    position: relative;
+    min-height: 618px;
+}

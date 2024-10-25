@@ -1,0 +1,78 @@
+.mainContainer{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    margin: auto;
+    max-width: 1500px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* padding-top: 150px; */
+}
+.dogaEV {
+    background-color: rgb(27, 24, 49);
+    padding: 32px;
+    display: flex;
+    color: white;
+}
+.dogaEVLeft{
+    width: 40%;
+    padding-right: 10%;
+}
+.dogaEVRight{
+    width: 56%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ilszDX {
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: -0.01em;
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 20px;
+    /* font-family: Gotham; */
+    line-height: 56px;
+    text-align: left;
+}
+.cTIWFP {
+    flex-direction: row;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 100;
+    margin: 0px 55px 0px 0px;
+    text-shadow: none;
+    line-height: 44px;
+    display: block;
+    align-items: center;
+    font-size: 18px;
+}
+.jMHLxS {
+    width: 26%;
+    margin-bottom: 20px;
+}
+.jkilIx {
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    /* font-family: Gotham; */
+    line-height: 32px !important;
+    letter-spacing: -0.01em !important;
+    z-index: 0 !important;
+    color: rgb(255, 255, 255) !important;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    text-align: left !important;
+}
+.kohjhs{
+    flex-direction: row;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 400;
+    margin: 12px 0px 0px 10px;
+    text-shadow: none;
+    line-height: 24px;
+    align-items: center;
+    font-size: 12px;
+}
