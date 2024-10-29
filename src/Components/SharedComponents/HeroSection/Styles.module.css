@@ -66,3 +66,7 @@
     from { background-position: 0 0; }
     to { background-position: 1920px 0; }
 }
+.liveHeading{
+    font-size: 95px !important;
+    margin-top: 50px;
+}
