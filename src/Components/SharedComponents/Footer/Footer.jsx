@@ -10,8 +10,8 @@ function Footer() {
                     <Box>
                         <UnorderedList>
                             <Text fontWeight="bold">Get In touch</Text>
-                            <ListItem><Text>+ (354) 585 4300</Text></ListItem>
-                            <ListItem><Text>info [at] icelandtravel.is</Text></ListItem>
+                            <ListItem><Text>+ (999) 999 9999</Text></ListItem>
+                            <ListItem><Text>info@company.com</Text></ListItem>
                         </UnorderedList>
                     </Box>
                     <Box>
