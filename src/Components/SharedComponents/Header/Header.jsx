@@ -13,6 +13,7 @@ import {
   InputRightElement,
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon, SearchIcon } from '@chakra-ui/icons';
+import Logo from './Logo/Logo';
 
 const Header = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -40,12 +41,7 @@ const Header = () => {
         {/* Left - Logo Section */}
         <Box>
           <Link href="/" aria-label="Go to homepage">
-            <Image
-              src="http://www.theme-oxygen.com/envato/travego/preview/images/logo.jpg"
-              alt="Logo"
-              maxH="49px"
-              fallbackSrc="https://via.placeholder.com/150"
-            />
+            <Logo />
           </Link>
         </Box>
 

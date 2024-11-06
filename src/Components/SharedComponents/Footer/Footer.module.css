@@ -14,3 +14,12 @@
     margin: 0 auto;
     color: #ffffff;
 }
+.list li{
+    text-decoration: none;
+    list-style: none;
+}
+.bottomFooter{
+    background-color: #000000;
+    font-family: calibri;
+    padding: 20px 10px;
+}
