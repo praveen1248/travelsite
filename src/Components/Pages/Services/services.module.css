@@ -1,0 +1,26 @@
+/* services.module.css */
+.services-container {
+    padding: 2rem;
+    background-color: #f4f7fa;
+    border-radius: 8px;
+  }
+  
+  .service-item {
+    background-color: white;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .service-description {
+    font-size: 1rem;
+    color: #7f8c8d;
+  }
+  

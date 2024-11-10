@@ -4,11 +4,9 @@
     overflow: hidden;
     height: 100%;
     margin: auto;
-    max-width: 1500px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 150px;
-    padding-bottom: 120px;
+    max-width: 1170px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 .spacerInner{
     display: flex;
@@ -30,13 +28,14 @@
     display: block;
     align-items: center;
     font-size: 18px;
+    font-family: 'Poppins', sans-serif !important;
 }
 .headingTagline{
+    font-family: 'Poppins', sans-serif !important;
     font-weight: 700 !important;
     font-size: 24px !important;
     line-height: 32px !important;
     position: relative !important;
-    /* font-family: Fontfabric; */
     z-index: 0 !important;
     letter-spacing: -0.01em !important;
     margin: 0px 0px 15px !important;
@@ -45,12 +44,12 @@
     opacity: 1 !important;
 }
 .headingSubHeading{
-    font-weight: 700 !important;
-    font-size: 72px !important;
-    line-height: 80px !important;
+    font-weight: 600 !important;
+    font-size: 48px !important;
+    line-height: 66px !important;
     letter-spacing: -0.02em !important;
     color: rgb(27, 24, 49) !important;
     text-align: left !important;
-    /* font-family: Radomir !important; */
+    font-family: 'Poppins', sans-serif !important;
     margin: 0px !important;
 }

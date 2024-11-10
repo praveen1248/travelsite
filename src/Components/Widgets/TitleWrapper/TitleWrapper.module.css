@@ -1,0 +1,19 @@
+.title{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+.mnTitle{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 9px;
+}
+.mnTitleSub{
+    font-size: 17px;
+    line-height: 1.4;
+}

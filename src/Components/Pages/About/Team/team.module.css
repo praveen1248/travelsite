@@ -1,0 +1,72 @@
+.team-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.team-member {
+    width: 250px;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+    transform: scale(1.05);
+}
+
+.team-member img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.team-member-content {
+    padding: 10px 0 !important;
+    text-align: center !important;
+    background-color: #1c1c1c !important;
+}
+
+.team-member-name {
+    font-family: 'Playfair Display', serif !important;
+    font-size: 20px !important;
+    padding: 10px 0 !important;
+    padding-bottom: 0 !important;
+    color: #bdbdbd !important;
+    font-weight: 500 !important;
+    margin-bottom: 0 !important;
+}
+.team-member-name:before{
+    content: "";
+    display: block;
+    background: #ffcc00;
+    height: 3px;
+    width: 50%;
+    position: relative;
+    top: -23px;
+    margin: auto;
+}
+.team-member-role {
+    color: #ffcc00 !important;
+    font-size: 13px !important;
+}
+
+.team-member-bio {
+    margin-top: 10px;
+    font-size: 0.875rem;
+    color: #4a5568;
+}
+
+.Heading{
+    font-family: 'Playfair Display', serif !important;
+    text-align: center !important;
+    margin-bottom: 20px !important;
+    font-size: 28px !important;
+    font-weight: 500 !important;
+    line-height: 1.1 !important;
+}

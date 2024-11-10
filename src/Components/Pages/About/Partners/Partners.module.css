@@ -1,0 +1,56 @@
+/* Partners.module.css */
+
+.partners-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .scroll-wrapper {
+    display: flex;
+    transition: transform 0.3s ease;
+  }
+  
+  .partner-item {
+    width: 150px; /* Width of each logo */
+    height: 150px; /* Height of each logo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .partner-item:hover {
+    transform: scale(1.1);
+  }
+  
+  .partner-logo {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  .scroll-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .scroll-arrow-left {
+    left: 0;
+  }
+  
+  .scroll-arrow-right {
+    right: 0;
+  }
+  

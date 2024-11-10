@@ -4,6 +4,7 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
+import '@fontsource/poppins';
 import './App.css';
 import AppRoutes from './AppRoutes'
 import Header from './Components/SharedComponents/Header/Header';
@@ -15,7 +16,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 function App() {
 
   return (
-    <div className="App">
+    <div className="App main-content">
       <ChakraProvider>
         <Header />
         <AppRoutes />

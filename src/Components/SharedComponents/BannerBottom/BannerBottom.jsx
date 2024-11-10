@@ -44,17 +44,17 @@ const BannerBottom = () => {
                 <Box float={'left'} width={'50%'}>
                     <VStack align="start" spacing={4} maxW="lg">
                         <Text fontSize="4xl" fontWeight="bold">
-                            The Himalayas
+                            Company Overview
                         </Text>
                         <Box h="2px" w="40%" bg="white" />
-                        <Text fontSize="lg">
-                            The Himalayas, or Himalaya, is a mountain range in Asia, separating the plains of the Indian
-                            subcontinent from the Tibetan Plateau. The range has some of the planet's highest peaks,
-                            including the very highest, Mount Everest. Over 100 peaks exceeding 7,200 m in elevation lie
-                            in the Himalayas.
+                        <Text lineHeight={'1.8'} fontSize={'17px'}>
+                            Travellers Solution is a leading B2B consolidator company specializing in outbound tours, 
+                            renowned for our expertise in premier destinations such as Europe, the UK, Scotland, Scandinavia, Georgia, and Armenia. 
+                            Our core strength lies in our deep understanding and extensive knowledge of European travel, 
+                            making us a distinguished player in the market of long-haul destinations.
                         </Text>
-                        <Button variant="outline" colorScheme="whiteAlpha">
-                            Learn More
+                        <Button variant="outline" colorScheme="white">
+                            Explore Tours
                         </Button>
                     </VStack>
                 </Box>
@@ -67,24 +67,6 @@ const BannerBottom = () => {
                             </div>
                         ))}
                         </div>
-                        {/* <div className="dots" style={{ position: 'absolute', bottom: '10px', left: '50%', transform: 'translateX(-50%)', display: 'flex' }}>
-                            {slides.map((_, index) => (
-                                <span
-                                key={index}
-                                className={`dot ${index === currentIndex ? 'active' : ''}`}
-                                onClick={() => showSlide(index)}
-                                style={{
-                                    height: '10px',
-                                    width: '10px',
-                                    margin: '0 5px',
-                                    backgroundColor: '#bbb',
-                                    borderRadius: '50%',
-                                    cursor: 'pointer',
-                                    transition: 'background-color 0.3s ease'
-                                }}
-                                ></span>
-                            ))}
-                        </div> */}
                     </div>
                 </div>
             </Box>
